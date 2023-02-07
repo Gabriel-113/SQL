@@ -125,6 +125,103 @@ insert into BOSS (nombre, nivel, daño, dificultad) values
 ('Archantus', 80, 'Magico', '20+'),
 ('Alextraza', 80, 'Magico', '30+'),
 ('Mutanus', 20, 'Maldicion', '5+'),
-('Velanter', 60, 'Fisico', '15+'); 
+('Velanter', 60, 'Fisico', '15+');
 
+insert into DUNGEON (nombre, nivel, dificultad, grupo) values
+('Cueva de los Lamentos', 20, 'Facil', '2+'),
+('Minas de la Muerte', 40, 'Media', '5+'),
+('Monasterio Escarlata', 30, 'Facil', '2+'),
+('Templo de Maraudon', 50, 'Dificil', '10+'),
+('Ruinas de Atalhakkar', 60, 'Media', '10+'),
+('Naxxramas', 70, 'Dificil', '15+'),
+('ZulFarrak', 80, 'Extrema', '30+'),
+('Guarida Nocturna', 30, 'Facil', '10+'),
+('Ciudadela Oscura', 80, 'Imposible', '30+'),
+('Templo Oscuro', 70, 'Dificil', '20+'),
+('Cumbres  Empinadas', 20, 'Facil', '+1'),
+('Cementerio Blanco', 30, 'Media', '+2'),
+('Catacumbas', 50, 'Dificil', '10+'),
+('LLanuras Inhospitas', 10, 'Facil', '2+'),
+('Guarida del Caido', 50, 'Dificil', '10+'),
+('Castillo de la Doncella', 80, 'Extrema', '15+'),
+('Tierras desoladas', 60, 'Facil', '5+'),
+('Bastion Derrumbado', 30, 'Media', '5+'),
+('Templo Ilidari', 40, 'Dificil', '5+'),
+('Bosque Embrujado', 20, 'Facil', '2+'),
+('Oasis Congelado', 60, 'Media', '5+'),
+('Valle del Dolor', 80, 'Imposible', '40+'),
+('Arenas Zaludak', 70, 'Dificil', '15+'),
+('Cuenca de Arathi', 20, 'Facil', '2+'),
+('Islas Perdidas', 30, 'Facil', '5+'),
+('Cumbres Gemelas', 70, 'Dificil', '10+'),
+('Academia Hechizada', 40, 'Media', '5+'),
+('Aguas Profundas', 80, 'Imposible', '20+'),
+('Fixura Vil', 60, 'Extrema', '15+'),
+('Trono del Rey Hundido', 70, 'Dificil', '15+');
 
+insert into SHOP (item, precio, stock) values
+('Tomo Necronomicon', 1500, 100),
+('Baculo Exanime', 1200, 50),
+('Anillo Bendecido', 2000, 30),
+('Collar Invisible', 1500, 500),
+('Anillo de Ambar', 800, 1000),
+('Hombreras de Legionario', 700, 2000),
+('Casco Ebano', 900, 1000),
+('Tunica de Seda', 200, 500),
+('Escudo de Plata', 50, 100),
+('Cota de Malla', 80, 100);
+
+insert into MODERATOR (usuario, contraseña, mail, nombre, apellido, fecha_nacimiento, pais, direccion, CP, fecha_registro, permisos) values
+('Asmodan', '121kljj92', 'seba_14_@gmail.com', 'Sebastian', 'Fernandez', '1995-02-15', 'Argentina', 'Berutti 4958', '7000', '2021-05-19', 'Admin'),
+('Pala', 'ajasdajl', 'pablo1994@gmail.com', 'Pablo', 'Gutierrez', '1994-05-27', 'Argentina', 'Chiclana 4953', '7800', '2021-02-10', 'Intermedio'),
+('xXElianaXx', 'kkoadj9as', 'eli_24@hotmail.com', 'Eliana', 'Sanchez', '1997-08-21', 'Peru', 'Av Libertador 42', '256', '2021-09-01', 'Admin'),
+('Knight', '12asd32oa', 'j_euclevio@yahoo.com', 'Juan', 'Euclevio', '1993-04-12', 'Uruguay', 'Artigas 2315', '865', '2022-07-10', 'Iniciales'),
+('Mago_Blanco', 'jla92klsfa', 'martu_19_96@gmail.com', 'Martiniano', 'Vidal', '1996-11-20', 'Chile', 'Santiago 2342', '156', '2022-01-24', 'Admin'),
+('Legolaz_', 'ljl2k4ask', 'ricotero1994gmail.com', 'Leonel', 'Estiliano', '1994-07-15', 'Argentina', 'Roca 2580', '7900', '2021-02-12', 'Admin'),
+('Ney', 'kaljjnakdal', 'nelson@hotmail.com', 'Nelson', 'Palermo', '1998-12-25', 'Argentina', 'Necochea 4200', '7800', '2022-07-07', 'Admin'),
+('Solari', '23904ioja', 'daniela23@yahoo.com', 'Daniela', 'Suarez', '1992-09-21', 'Uruguay', 'Montevideo 1000', '130', '2021-04-14', 'Admin'),
+('Saruman', '2i4jika', 'chaco_45@gmail.com', 'Matias', 'Fernandez', '1997-03-12', 'Argentina', 'Sarmiento 3555', '6400', '2021-09-11', 'Intermedio'),
+('Jerguista', '282ikas9p1', 'joako23@gmail.com', 'Joaquin', 'Salvatierra', '1996-09-02', 'Argentina', 'Esporas 2500', '7000', '2022-05-30', 'Inicial'),
+('Salvatore', 'kask390aszcz', 'guzman_r@gmail.com', 'Ricardo', 'Guzman', '1995-05-06', 'Mexico', 'Independencia 59', '81', '2021-02-03', 'Admin'),
+('_Sylvanas_', 'ioqwuwqoasz9', 'marti_09@gmail.com', 'Martina', 'Manzano', '1999-08-29', 'Argentina', 'Av Pringles 3200', '7400', '2021-12-30', 'Intermedio'),
+('Tanque1996', 'zmnxczxca16', 'rob_23@yahoo.com', 'Roberto', 'Juarez', '1996-10-12', 'Argentina', 'Belgrano 800', '6800', '2021-03-15', 'Inicial'),
+('Frodito', '192380iasdk', 'Juancho12@gmail.com', 'Juan Cruz', 'Sorbio', '1994-02-21', 'Uruguay', 'Av Libertad 1200', '125', '2022-07-20', 'Admin'),
+('Guldan', 'qiwopzxp1345', 'gus_1999@gmail.com', 'Gustavo', 'Romero', '1999-04-12', 'Paraguay', 'Asuncion 2000', '1450', '2021-09-19', 'Inicial'),
+('Perla23', '90alasdskld', 'juligomez@hotmail.com', 'Julieta', 'Gomez', '2000-03-28', 'Argentina', 'Trabajadores 2050', '7800', '2021-02-18', 'Intermedio'),
+('Erdoran', 'iyqruiasjdo1', 'jk_suarez@gmail.com', 'Javier', 'Suarez', '1997-11-12', 'Argentina', 'Hornos  3590', '7400', '2021-07-21', 'Intermedio'),
+('Anatore', 'i9123029i294', 'anabella1994gmail.com', 'Anabella', 'Soriano', '1994-05-20', 'Chile', 'Andes 1200', '159', '2021-12-01', 'Inicial'),
+('Beta_X', 'jasd329asio1', 'pablo1992hotmail.com', 'Pablo', 'Benitez', '1992-12-17', 'Argentina', 'La Madrid 3000', '7000', '2020-12-18', 'Admin');
+
+insert into MODERATOR_SERVIDOR (id_moderator, id_servidor) values
+(1,1),
+(2,3),
+(3,5),
+(4,6),
+(5,1),
+(6,2),
+(7,3),
+(8,4),
+(9,4),
+(10,4),
+(11,2),
+(12,6),
+(13,5),
+(14,6),
+(15,1),
+(16,2),
+(17,3),
+(18,4),
+(19,5);
+
+insert into BANS (fecha_sancion, fecha_fin, motivo, id_usuario, id_moderator) values
+('2023-01-18', '2023-04-18', 'Lenguaje inapropiado', 3, 1),
+('2022-11-08', '2023-06-08', 'Lenguaje ofensivo', 9, 15),
+('2023-01-15', '2030-01-15', 'Cheat', 2, 12),
+('2023-01-02', '2023-03-02', 'Lenguaje inapropiado', 5, 5),
+('2022-09-29', '2023-05-29', 'Lenguaje inapropiado, spam', 8, 10);
+
+insert into PETITIONS (fecha, descargo, id_usuario, id_ban) values
+('2023-01-18', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 3, 1),
+('2022-11-09', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt', 9, 2),
+('2023-01-03', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 5, 4),
+('2022-10-01', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore', 8, 5);
