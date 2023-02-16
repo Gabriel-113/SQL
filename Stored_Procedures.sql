@@ -4,6 +4,8 @@ use db_mmorpg;
 -- de mayor a menor o viceversa correspondiendo al nivel de la zona. Toma dos paramentros, el primero "servidor" (INT) es el numero
 -- correspondiende al id_servidor siendo del 1 al 6; el segundo parametro "nivel" (VARCHAR(5)) acepta 'ASC' y 'DESC' 
 -- tomando el camino correspondiente del ordenamiento mediante un condicional if. EJ: CALL INFORMACION_SERVIDOR(3,'ASC').
+-- Ej: si el item existe ('Tomo Necronomicon', 'Una Mano', 2500, 0, 80, 'Velocidad cast %50 Mana %40', 'Legendario', '%3')
+-- Ej: si el item no existe ('Tomo Sagrado', 'Una Mano', 0, 800, 70, 'Velocidad cast %30 Mana %20', 'Mitico', '%10')
 
 drop procedure if exists INFORMACION_SERVIDOR;
 
