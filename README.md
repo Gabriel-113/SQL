@@ -20,6 +20,12 @@ La idea consiste en ponerse en el rol de un programador de videojuegos que a par
 - Scripts creacion de tablas
 - Scripts inserción de datos
 - Scripts funciones
+- Scripts tablas vistas
+- Scripts stored procedures
+- Scripts triggers
+- Scripts sentencias TCL
+- Scripts tablas LOG
+- Scripts back up
 
 ------------
 

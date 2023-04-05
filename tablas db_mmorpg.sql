@@ -193,7 +193,5 @@ descargo VARCHAR(300),
 FOREIGN KEY (id_usuario) REFERENCES USUARIO(id_usuario),
 FOREIGN KEY (id_ban) REFERENCES BANS(id_ban)
 );
-FOREIGN KEY (id_usuario) REFERENCES USUARIO(id_usuario),
-FOREIGN KEY (id_ban) REFERENCES BANS(id_ban)
-);
+
 
